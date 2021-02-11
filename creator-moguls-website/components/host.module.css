@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.hostImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.hostInfoFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 0px 10px;
+    /* Inside Auto Layout */
+
+    flex: none;
+    flex-grow: 1;
+    margin: 0px 5px;
+}
+
+.hostInfoFrame a {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.hostInfoFrame p {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
